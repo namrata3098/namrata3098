@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, I am Namrata! 👋
 
 ![image](https://github.com/namrata3098/namrata3098/assets/60501115/9cb4dc3d-beda-4841-8289-758d0acb10b3)
 

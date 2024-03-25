@@ -12,25 +12,6 @@
  
  - Website About me: https://master--funny-meerkat-e36bc0.netlify.app/#AboutMe
 
-fetch('https://api.github.com/users/<your_username>/repos')
-  .then(response => response.json())
-  .then(data => {
-    const languages = {};
-    data.forEach(repo => {
-      const { language } = repo;
-      if (language) {
-        if (languages[language]) {
-          languages[language]++;
-        } else {
-          languages[language] = 1;
-        }
-      }
-    });
-    const sortedLanguages = Object.entries(languages)
-      .sort((a, b) => b[1] - a[1])
-      .map(([language, count]) => `${language}: ${count}`);
-    console.log(sortedLanguages);
-  })
-  .catch(error => console.error('Error:', error));
+![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=namrata3098&layout=compact)
 
   
